@@ -5,7 +5,7 @@ const port = 3000;
 const app=express();
 app.use(express.json());
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "http://34.57.31.183:3000"
 }));
 
 app.get("/api/message",(req,res)=>{

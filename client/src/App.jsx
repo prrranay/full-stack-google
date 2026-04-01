@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState({});
   const getData=async ()=>{
     try {
-      let data = await fetch("http://localhost:3000/api/message");
+      let data = await fetch("http://34.57.31.183:3000/api/message");
     var res= await data.json();
     console.log(res)
     } catch (error) {

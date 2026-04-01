@@ -11,7 +11,7 @@ function App() {
     console.log(res)
     } catch (error) {
      console.log(error);
-     var res ={data:"error at server"}
+     var res ={data:"error at internal server"}
     }
     setCount(res)
   }

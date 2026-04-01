@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /home/${{ secrets.SSH_USERNAME }}/practice/full-stack-google
+            cd /home/pkd110000/practice/full-stack-google
             git pull origin main
             docker compose down
             docker compose up -d --build
